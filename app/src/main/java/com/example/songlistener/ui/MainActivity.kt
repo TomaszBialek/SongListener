@@ -1,7 +1,8 @@
-package com.example.songlistener
+package com.example.songlistener.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.songlistener.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
