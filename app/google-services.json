@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "945918890318",
+    "firebase_url": "https://songlistener-618c1.firebaseio.com",
+    "project_id": "songlistener-618c1",
+    "storage_bucket": "songlistener-618c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945918890318:android:3ef45a26df460e55834e1f",
+        "android_client_info": {
+          "package_name": "com.example.songlistener"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945918890318-8f2l24u22mfrlrq3j0rgpd2ikd5mpi8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrGlA0V-wBaBJD47H7RBsVJIv8ikZ77o4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945918890318-8f2l24u22mfrlrq3j0rgpd2ikd5mpi8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
