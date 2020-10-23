@@ -7,7 +7,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.songlistener.data.entity.Song
-import com.example.songlistener.exoplayer.IsPlayEnabled
+import com.example.songlistener.exoplayer.isPlayEnabled
 import com.example.songlistener.exoplayer.MusicServiceConnection
 import com.example.songlistener.exoplayer.isPlaying
 import com.example.songlistener.exoplayer.isPrepared
@@ -63,7 +63,7 @@ class MainViewModel @ViewModelInject constructor(
             playbackState.value?.let { playbackState ->
                 when {
                     playbackState.isPlaying -> if (toggle) musicServiceConnection.transportControls.pause()
-                    playbackState.IsPlayEnabled -> musicServiceConnection.transportControls.play()
+                    playbackState.isPlayEnabled -> musicServiceConnection.transportControls.play()
                     else -> Unit
                 }
             }
