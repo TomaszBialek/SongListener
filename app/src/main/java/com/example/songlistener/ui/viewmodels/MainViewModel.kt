@@ -49,7 +49,7 @@ class MainViewModel @ViewModelInject constructor(
         musicServiceConnection.transportControls.skipToNext()
     }
 
-    fun sipToPreviousSong() {
+    fun skipToPreviousSong() {
         musicServiceConnection.transportControls.skipToPrevious()
     }
 
